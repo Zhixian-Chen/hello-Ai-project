@@ -25,3 +25,7 @@ GitHub 使用项目仓库所有者主页 https://github.com/Zhixian-Chen，可�
 已包含 `.github/workflows/pages.yml`。将网站提交到本仓库 main 分支，在 GitHub 仓库 Settings → Pages → Build and deployment 中选择 GitHub Actions，随后运行 Publish portfolio to GitHub Pages 工作流。工作流只发布 HTML/CSS/JS 和 assets，不发布开发文件。发布成功后的真实地址以工作流输出为准。
 
 当前尚未发布：云环境访问 GitHub Pages API 返回 Forbidden，无法验证或启用 Pages。小红书教程链接亦返回网络策略 403，未据此编造教程步骤。
+
+## Gallery edition
+
+作品区改为按 01–07 逐行排列的大幅画廊，封面提取原作主视觉。点击进入铺满浏览器的深色阅览器，完整收录 PDF 第 7–79 页，项目及页码严格按原始顺序。支持左右方向键、Home/End、页码滑杆、下一项目、移动端滑动、Escape 退出以及可选浏览器全屏。大图采用 contain 展示，保留完整页面。
