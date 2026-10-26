@@ -47,4 +47,4 @@ python3 -m http.server 3000 --bind 0.0.0.0 --directory /workspace/hello-Ai-proje
 
 ## GitHub Pages
 
-现有 `.github/workflows/pages.yml` 保留。工作流只打包 HTML/CSS/JS 和 `assets`。在仓库 Settings → Pages 中选择 GitHub Actions 后，可由 main 分支推送或手动触发发布。此次完成的是网站实现与本地验证；没有执行提交、推送或线上发布。
+现有 `.github/workflows/pages.yml` 保留。工作流只打包 HTML/CSS/JS 和 `assets`。在仓库 Settings → Pages 中选择 GitHub Actions 后，可由 main 分支推送或手动触发发布。网站已上传至本仓库 main 分支，并由 GitHub Pages 工作流成功部署。公开访问地址：https://zhixian-chen.github.io/hello-Ai-project/ 。后续发布状态以仓库 Actions 的最新运行结果为准。
