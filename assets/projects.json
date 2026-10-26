@@ -1,1 +1,421 @@
-[{"title": "共享社区活动中心", "description": "以邯郸社区为场地，从不同人群的活动需求与共享程度出发，结合自然采光、通风与绿植，探索社区公共空间的连接方式。", "pages": ["assets/page-07.webp", "assets/page-08.webp", "assets/page-09.webp", "assets/page-10.webp", "assets/page-11.webp", "assets/page-12.webp", "assets/page-13.webp", "assets/page-14.webp", "assets/page-15.webp", "assets/page-16.webp", "assets/page-17.webp", "assets/page-18.webp", "assets/page-19.webp"], "sourcePages": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]}, {"title": "农产品批发市场", "description": "回应路边摊位、交通拥挤与市场容量问题，通过功能分区、共享阶梯与无障碍流线，连接日常交易和地方文化活动。", "pages": ["assets/page-20.webp", "assets/page-21.webp", "assets/page-22.webp", "assets/page-23.webp", "assets/page-24.webp", "assets/page-25.webp", "assets/page-26.webp", "assets/page-27.webp", "assets/page-28.webp", "assets/page-29.webp", "assets/page-30.webp", "assets/page-31.webp", "assets/page-32.webp"], "sourcePages": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]}, {"title": "促进自闭儿童社交能力的空间", "description": "从儿童社交需求与空间体验出发，运用弧形空间、活动场景与体块推演，探索支持交流和互动的环境设计。", "pages": ["assets/page-33.webp", "assets/page-34.webp", "assets/page-35.webp", "assets/page-36.webp", "assets/page-37.webp", "assets/page-38.webp", "assets/page-39.webp", "assets/page-40.webp", "assets/page-41.webp", "assets/page-42.webp", "assets/page-43.webp", "assets/page-44.webp", "assets/page-45.webp"], "sourcePages": [33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45]}, {"title": "共享办公空间", "description": "针对校园临时办公与用地紧张的问题，采用钢结构与大面积玻璃，兼顾空间通透性、拆卸和后续扩建的可能。", "pages": ["assets/page-46.webp", "assets/page-47.webp", "assets/page-48.webp", "assets/page-49.webp", "assets/page-50.webp", "assets/page-51.webp", "assets/page-52.webp", "assets/page-53.webp", "assets/page-54.webp", "assets/page-55.webp", "assets/page-56.webp"], "sourcePages": [46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56]}, {"title": "木梁观岩茶器馆", "description": "以木构为主体、茶韵为内核，将实木梁柱、自然石材和暖调灯光融入展示与品茶空间。通过 AI 辅助推演空间形态、视角与材质表达。", "pages": ["assets/page-57.webp", "assets/page-58.webp", "assets/page-59.webp", "assets/page-60.webp", "assets/page-61.webp", "assets/page-62.webp", "assets/page-63.webp", "assets/page-64.webp", "assets/page-65.webp", "assets/page-66.webp", "assets/page-67.webp", "assets/page-68.webp", "assets/page-69.webp"], "sourcePages": [57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69]}, {"title": "德州水路驿站复原图", "description": "以德州水路驿站为主题，开展 AI 辅助复原图与航拍视角视频生成探索。此处展示作品集中的复原视觉与过程图。", "pages": ["assets/page-70.webp", "assets/page-71.webp", "assets/page-72.webp", "assets/page-73.webp"], "sourcePages": [70, 71, 72, 73]}, {"title": "手绘与平面作品", "description": "从黑白构成、手绘表现到平面编排，记录视觉语言、色彩与空间表达的持续练习。", "pages": ["assets/page-74.webp", "assets/page-75.webp", "assets/page-76.webp", "assets/page-77.webp", "assets/page-78.webp", "assets/page-79.webp"], "sourcePages": [74, 75, 76, 77, 78, 79]}]
+[
+  {
+    "title": "共享社区活动中心",
+    "description": "以邯郸社区为场地，从不同人群的活动需求与共享程度出发，结合自然采光、通风与绿植，探索社区公共空间的连接方式。",
+    "pages": [
+      "assets/page-07.webp",
+      "assets/page-08.webp",
+      "assets/page-09.webp",
+      "assets/page-10.webp",
+      "assets/page-11.webp",
+      "assets/page-12.webp",
+      "assets/page-13.webp",
+      "assets/page-14.webp",
+      "assets/page-15.webp",
+      "assets/page-16.webp",
+      "assets/page-17.webp",
+      "assets/page-18.webp",
+      "assets/page-19.webp"
+    ],
+    "sourcePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "id": "community",
+    "en": "A place to come together",
+    "category": "space",
+    "type": "公共空间 / 社区更新",
+    "cover": "assets/cover-01.webp",
+    "location": "河北 · 邯郸",
+    "question": "社区空间，如何让不同的人重新相遇？",
+    "approach": "从场地与人群活动出发，梳理不同年龄与使用情境的共享需求。以阶梯、自然采光和保留树木的中庭，连接日常活动与公共生活。",
+    "skills": [
+      "场地调研",
+      "行为分析",
+      "共享策略",
+      "采光与通风"
+    ],
+    "stages": [
+      {
+        "title": "从日常出发",
+        "text": "区位、社区场景与人群活动分析，找到公共生活中尚未被回应的需求。",
+        "page": 8
+      },
+      {
+        "title": "让共享有层次",
+        "text": "按功能梳理共享程度，并通过装置与光线组织空间的开放与连接。",
+        "page": 13
+      },
+      {
+        "title": "自然进入室内",
+        "text": "将玻璃、木材、绿植与阶梯结合，形成可停留、可交流的社区场所。",
+        "page": 18
+      }
+    ]
+  },
+  {
+    "title": "农产品批发市场",
+    "description": "回应路边摊位、交通拥挤与市场容量问题，通过功能分区、共享阶梯与无障碍流线，连接日常交易和地方文化活动。",
+    "pages": [
+      "assets/page-20.webp",
+      "assets/page-21.webp",
+      "assets/page-22.webp",
+      "assets/page-23.webp",
+      "assets/page-24.webp",
+      "assets/page-25.webp",
+      "assets/page-26.webp",
+      "assets/page-27.webp",
+      "assets/page-28.webp",
+      "assets/page-29.webp",
+      "assets/page-30.webp",
+      "assets/page-31.webp",
+      "assets/page-32.webp"
+    ],
+    "sourcePages": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "id": "market",
+    "en": "The everyday, reimagined",
+    "category": "space",
+    "type": "公共建筑 / 城市日常",
+    "cover": "assets/cover-02.webp",
+    "location": "河北 · 邯郸",
+    "question": "菜市场，能否成为一座社区的公共客厅？",
+    "approach": "回应路边摊、交通拥堵与场地容量不足的问题。从交易动线与功能分区切入，结合共享阶梯、无障碍坡道和地方文化活动，让日常买菜也成为社区交流。",
+    "skills": [
+      "场景研究",
+      "流线规划",
+      "功能分区",
+      "公共空间设计"
+    ],
+    "stages": [
+      {
+        "title": "读懂在地生活",
+        "text": "观察商户、居民、路边摊与交通的关系，定位现有场地的矛盾。",
+        "page": 23
+      },
+      {
+        "title": "重组日常秩序",
+        "text": "以清晰分区、共享阶梯和坡道衔接交易、通行与公共活动。",
+        "page": 25
+      },
+      {
+        "title": "为相遇留出空间",
+        "text": "在市场功能之外引入文化活动，探索兼具效率与生活感的公共建筑。",
+        "page": 30
+      }
+    ]
+  },
+  {
+    "title": "促进自闭儿童社交能力的空间",
+    "description": "从儿童社交需求与空间体验出发，运用弧形空间、活动场景与体块推演，探索支持交流和互动的环境设计。",
+    "pages": [
+      "assets/page-33.webp",
+      "assets/page-34.webp",
+      "assets/page-35.webp",
+      "assets/page-36.webp",
+      "assets/page-37.webp",
+      "assets/page-38.webp",
+      "assets/page-39.webp",
+      "assets/page-40.webp",
+      "assets/page-41.webp",
+      "assets/page-42.webp",
+      "assets/page-43.webp",
+      "assets/page-44.webp",
+      "assets/page-45.webp"
+    ],
+    "sourcePages": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "id": "children",
+    "en": "Room for every little world",
+    "category": "research",
+    "type": "设计研究 / 儿童友好空间",
+    "cover": "assets/cover-03.webp",
+    "location": "河北 · 石家庄",
+    "question": "空间能为儿童之间的交流提供怎样的支持？",
+    "approach": "围绕自闭症儿童的行为与互动场景展开设计探索。从场地、行为和体块生成出发，以柔和色彩、连续弧线与不同开放程度的活动区域，尝试创造包容的空间体验。",
+    "skills": [
+      "行为研究",
+      "场景推演",
+      "体块生成",
+      "包容性设计"
+    ],
+    "stages": [
+      {
+        "title": "理解不同的需求",
+        "text": "结合区位、场景与行为资料，识别儿童活动与交流的空间需求。",
+        "page": 37
+      },
+      {
+        "title": "把行为转为空间",
+        "text": "围绕游戏、阅读与亲子互动推演体块，组织开放与私密的活动区域。",
+        "page": 39
+      },
+      {
+        "title": "温和而有趣的体验",
+        "text": "以弧形动线、柔和色彩与采光构建可探索的环境；此项目为设计方案，非临床效果验证。",
+        "page": 43
+      }
+    ]
+  },
+  {
+    "title": "共享办公空间",
+    "description": "针对校园临时办公与用地紧张的问题，采用钢结构与大面积玻璃，兼顾空间通透性、拆卸和后续扩建的可能。",
+    "pages": [
+      "assets/page-46.webp",
+      "assets/page-47.webp",
+      "assets/page-48.webp",
+      "assets/page-49.webp",
+      "assets/page-50.webp",
+      "assets/page-51.webp",
+      "assets/page-52.webp",
+      "assets/page-53.webp",
+      "assets/page-54.webp",
+      "assets/page-55.webp",
+      "assets/page-56.webp"
+    ],
+    "sourcePages": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "id": "office",
+    "en": "A lighter way to work",
+    "category": "space",
+    "type": "共享办公 / 轻型建筑",
+    "cover": "assets/cover-04.webp",
+    "location": "河北 · 正定",
+    "question": "有限的校园用地，如何容纳灵活的协作？",
+    "approach": "针对校园临时办公与小组协作的场地缺口，以轻型钢结构和大面积玻璃组织共享空间，兼顾自然光、通透感、拆卸与后续扩建。",
+    "skills": [
+      "需求分析",
+      "模块化思考",
+      "结构表达",
+      "环境分析"
+    ],
+    "stages": [
+      {
+        "title": "发现协作的缺口",
+        "text": "分析校区之间的场地与人群需求，明确临时办公和小组活动的使用情境。",
+        "page": 49
+      },
+      {
+        "title": "轻量的结构逻辑",
+        "text": "通过体块生成与爆炸分析，探索可灵活使用的轻型建筑系统。",
+        "page": 51
+      },
+      {
+        "title": "在自然中工作",
+        "text": "以钢结构、玻璃与自然采光构成通透的协作环境。",
+        "page": 55
+      }
+    ]
+  },
+  {
+    "title": "木梁观岩茶器馆",
+    "description": "以木构为主体、茶韵为内核，将实木梁柱、自然石材和暖调灯光融入展示与品茶空间。通过 AI 辅助推演空间形态、视角与材质表达。",
+    "pages": [
+      "assets/page-57.webp",
+      "assets/page-58.webp",
+      "assets/page-59.webp",
+      "assets/page-60.webp",
+      "assets/page-61.webp",
+      "assets/page-62.webp",
+      "assets/page-63.webp",
+      "assets/page-64.webp",
+      "assets/page-65.webp",
+      "assets/page-66.webp",
+      "assets/page-67.webp",
+      "assets/page-68.webp",
+      "assets/page-69.webp"
+    ],
+    "sourcePages": [
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69
+    ],
+    "id": "tea",
+    "en": "Structure, light & stillness",
+    "category": "ai",
+    "type": "商业空间 / AI 辅助设计",
+    "cover": "assets/cover-05.webp",
+    "location": "空间设计探索",
+    "question": "当木构与茶相遇，空间如何让人慢下来？",
+    "approach": "以木构为骨、茶韵为核，将东方空间意境与现代商业体验相结合。借助 AI 推演空间形态、材质与视角，用原木、自然石材及分层暖光营造温润的茶器展示场所。",
+    "skills": [
+      "空间叙事",
+      "AI 视觉推演",
+      "材质表达",
+      "灯光氛围"
+    ],
+    "stages": [
+      {
+        "title": "形态的多种可能",
+        "text": "以多视角推演探索木构的层次与秩序，建立空间表达的基础。",
+        "page": 58
+      },
+      {
+        "title": "让材料表达情绪",
+        "text": "原木与自然石材形成质感对话，以格栅组织展示、体验与私密程度。",
+        "page": 59
+      },
+      {
+        "title": "以光收束氛围",
+        "text": "通过暖调分层照明和材质细节，形成安静、温润的商业空间视觉。",
+        "page": 61
+      }
+    ]
+  },
+  {
+    "title": "德州水路驿站复原图",
+    "description": "以德州水路驿站为主题，开展 AI 辅助复原图与航拍视角视频生成探索。此处展示作品集中的复原视觉与过程图。",
+    "pages": [
+      "assets/page-70.webp",
+      "assets/page-71.webp",
+      "assets/page-72.webp",
+      "assets/page-73.webp"
+    ],
+    "sourcePages": [
+      70,
+      71,
+      72,
+      73
+    ],
+    "id": "station",
+    "en": "Revisiting a lost landscape",
+    "category": "ai",
+    "type": "文化场景 / AI 视觉探索",
+    "cover": "assets/cover-06.webp",
+    "location": "山东 · 德州",
+    "question": "如何借助新的视觉工具，重新想象历史场景？",
+    "approach": "围绕德州水路驿站开展 AI 辅助复原视觉与航拍视角探索，从场景组织到整体氛围，尝试让历史文化主题获得可感知的当代表达。图像为创作探索，不作为史实复原结论。",
+    "skills": [
+      "文化主题转译",
+      "AI 场景构建",
+      "视角推演",
+      "视觉叙事"
+    ],
+    "stages": [
+      {
+        "title": "文化主题与场景",
+        "text": "以水路、驿站和聚落为视觉线索，建立创作场景。",
+        "page": 70
+      },
+      {
+        "title": "从整体到视角",
+        "text": "以整体布局与航拍视角，探索场景层次和空间关系。",
+        "page": 72
+      },
+      {
+        "title": "形成视觉叙事",
+        "text": "组织不同视角与过程图，呈现 AI 辅助场景创作的表达可能。",
+        "page": 73
+      }
+    ]
+  },
+  {
+    "title": "手绘与平面作品",
+    "description": "从黑白构成、手绘表现到平面编排，记录视觉语言、色彩与空间表达的持续练习。",
+    "pages": [
+      "assets/page-74.webp",
+      "assets/page-75.webp",
+      "assets/page-76.webp",
+      "assets/page-77.webp",
+      "assets/page-78.webp",
+      "assets/page-79.webp"
+    ],
+    "sourcePages": [
+      74,
+      75,
+      76,
+      77,
+      78,
+      79
+    ],
+    "id": "visual",
+    "en": "Thinking with the hands",
+    "category": "visual",
+    "type": "手绘 / 平面构成",
+    "cover": "assets/cover-07.webp",
+    "location": "视觉练习",
+    "question": "从一笔一画，到自己的视觉语言。",
+    "approach": "从黑白构成、色彩练习到手绘与版面编排，持续练习观察与表达。让视觉基础成为理解空间、组织信息和讲述设计的另一种方式。",
+    "skills": [
+      "手绘表达",
+      "色彩与构成",
+      "版面编排",
+      "视觉观察"
+    ],
+    "stages": [
+      {
+        "title": "观察与记录",
+        "text": "通过手绘记录形态与空间，建立视觉感知。",
+        "page": 74
+      },
+      {
+        "title": "色彩与节奏",
+        "text": "在不同媒介中练习色彩关系和构成秩序。",
+        "page": 76
+      },
+      {
+        "title": "表达与编排",
+        "text": "将视觉元素组织成清晰、有节奏的作品呈现。",
+        "page": 79
+      }
+    ]
+  }
+]
