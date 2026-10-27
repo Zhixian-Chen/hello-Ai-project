@@ -18,7 +18,7 @@ let viewerRequest = 0;
 let previousHash = '#work';
 let originFocus = null;
 let toastTimer;
-const heroProjects = [4, 0, 2];
+const heroProjects = [4, 0, 2, 1, 3];
 const syncScroll = () => document.body.classList.toggle('has-dialog', $$('dialog[open]').length > 0);
 const showDialog = dialog => { if (!dialog.open) dialog.showModal(); syncScroll(); };
 function notify(message) {
@@ -82,10 +82,10 @@ function setHero(step) {
   heroSlide = (heroSlide + step + heroProjects.length) % heroProjects.length;
   $$('.hero-background').forEach((img, index) => img.classList.toggle('is-active', index === heroSlide));
   const index = heroProjects[heroSlide];
-  const title = projects[index]?.title || ['共享社区活动中心','','促进自闭儿童社交能力的空间','','木梁观岩茶器馆'][index];
+  const title = projects[index]?.title || ['共享社区活动中心','农产品批发市场','促进自闭儿童社交能力的空间','共享办公空间','木梁观岩茶器馆'][index];
   $('.hero-project-number').textContent = `${pad(index + 1)} — FEATURED PROJECT`;
   $('.hero-project-title').innerHTML = `${escapeHTML(title)} <span>↗</span>`;
-  $('#hero-counter').innerHTML = `${pad(heroSlide + 1)} <i>/ 03</i>`;
+  $('#hero-counter').innerHTML = `${pad(heroSlide + 1)} <i>/ ${pad(heroProjects.length)}</i>`;
 }
 $('#hero-prev').addEventListener('click', () => setHero(-1));
 $('#hero-next').addEventListener('click', () => setHero(1));
